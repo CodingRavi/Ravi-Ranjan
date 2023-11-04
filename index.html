@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- style css -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- fontawesome -->
+    <script
+      src="https://kit.fontawesome.com/8892010d5b.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="icon" type="image/x-icon" href="./images/title logo.png">
+    <title>Ravi Ranjan</title>
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img src="./images/logo.png" alt="note found" class="logo" />
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+          </ul>
+          <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+          <p>Designer</p>
+          <h1>
+            Hi. I'm <span>Ravi</span> Ranjan <br />
+            Kumar from Aurangabad
+          </h1>
+        </div>
+      </div>
+    </div>
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="./images/user.png" alt="not found" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>
+              Hi , I am Ravi Ranjan Kumar from Aurangabad Bihar and currently I
+              am pursuing Batchelor Degree from Technocrats Institute Of
+              Technology & Science Bhopal In Computer science and engineering. I
+              am very Focused Person to complete My tasks and I love
+              ❤️ to learn new technologies & Skills according to changes in
+              technology & environment . I feel good to interact to new
+              people's and to go to new places
+            </p>
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('Skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('Experience')">
+                Experience
+              </p>
+              <p class="tab-links" onclick="opentab('Education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="Skills">
+              <ul>
+                <li><span>Graphic Designing</span><br />🔴 Adobe Photohope <br>
+                  🔴 Adobe illustrator <br>
+                  🔴 Adobe After Effect <br>
+                  🔴 Filmora
+                </li>
+                <li><span>UI/UX</span><br />🔴 Adobe XD</li>
+                <!-- <li><span>Web development</span><br />Web App Development</li> -->
+              </ul>
+            </div>
+            <div class="tab-contents" id="Experience">
+              <ul>
+                <li><span>Graphic Designing</span><br />Healthvations / Vistas Media (Bhopal)</li>
+                <li>
+                  <span>Front-end internship</span><br />
+                  I did completed 3 months internship from CRTD Technology(Front-end devloper)
+                </li>
+                <!-- <li>
+                  <span>App development</span><br />Building Android/ios Apps
+                </li> -->
+              </ul>
+            </div>
+            <div class="tab-contents" id="Education">
+              <ul>
+                <li>
+                  <span>B tech(computer science and engineering)</span><br />
+                  College - TIT&S (9.23 CGPA)
+                </li>
+                <li><span>12th (PCM)</span><br />
+                  College - Town Inter College Aurangabad (71.8%)
+                </li>
+                <li><span>10th (Matrices)</span><br />
+                  College - High school Bijauli, Aurangabad (64%)
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="sevices-list">
+          <div>
+            <i class="fa-brands fa-app-store"></i>
+            <h2>Graphic designing</h2>
+            <p>
+              software used - Adobe photohope , Adobe illustrator, Adobe After Effect, Filmora <br>
+              ex - Motion Graphic Posting, banner, poster, logo, visiting card, certificate, 
+            </p>
+            <a href="https://t.me/BannerDesigning">Learn More</a>
+          </div>
+          <!-- <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Web development</h2>
+            <p>
+              I am A MERN Stack developer . <br> skills -: HTML, CSS, JAVASCRIPT, REACT JS, NODEJS, MONGODB, FIREBASE
+            </p>
+            <a href="#">Learn More</a>
+          </div> -->
+          <div>
+            <i class="fa-solid fa-crop"></i>
+            <h2>Web designing</h2>
+            <p>
+              software used - Adobe XD, Adobe photohope, Figma
+            </p>
+            <a href="https://www.instagram.com/designer_ravi_ranjan/">Learn More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">My work</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="./Work/post.jpg" alt="" />
+            <div class="layer">
+              <!-- <h3>Ecommerce Web (MERN Project)</h3> -->
+              <p>
+                For More Design Visite my Instagram / Telegram Group
+
+              </p>
+              <a href="https://ecommerce-client-yt6i.onrender.com/"
+                ><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="./Work/post3.jpg" alt="" />
+            <div class="layer">
+              <!-- <h3>CharDham Yatra Front-end</h3> -->
+              <p>
+                For More Design Visite my Instagram / Telegram Group
+
+              </p>
+              <a href="https://lambent-concha-6ec0d0.netlify.app/"
+                ><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="./Work/post 4.jpg" alt="" />
+            <div class="layer">
+              <!-- <h3>Gradienter Grnrater</h3> -->
+              <p>
+                For More Design Visite my Instagram / Telegram Group
+              </p>
+              <a href="https://www.instagram.com/designer_ravi_ranjan/"
+                ><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="./Work/podcast.jpg" alt="" />
+            <div class="layer">
+              <!-- <h3>Gradienter Grnrater</h3> -->
+              <p>
+                For More Design Visite my Instagram / Telegram Group
+              </p>
+              <a href="https://www.instagram.com/designer_ravi_ranjan/"
+                ><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="./Work/ui.png" alt="" />
+            <div class="layer">
+              <!-- <h3>Gradienter Grnrater</h3> -->
+              <p>
+                For More Design Visite my Instagram / Telegram Group
+              </p>
+              <a href="https://www.instagram.com/designer_ravi_ranjan/"
+                ><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="./Work/view card.jpg" alt="" />
+            <div class="layer">
+              <!-- <h3>Gradienter Grnrater</h3> -->
+              <p>
+                For More Design Visite my Instagram / Telegram Group
+              </p>
+              <a href="https://www.instagram.com/designer_ravi_ranjan/"
+                ><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="./Work/logo2.jpg" alt="" />
+            <div class="layer">
+              <!-- <h3>Gradienter Grnrater</h3> -->
+              <p>
+                For More Design Visite my Instagram / Telegram Group
+              </p>
+              <a href="https://www.instagram.com/designer_ravi_ranjan/"
+                ><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="./Work/logo1.jpg" alt="" />
+            <div class="layer">
+              <!-- <h3>Gradienter Grnrater</h3> -->
+              <p>
+                For More Design Visite my Instagram / Telegram Group
+              </p>
+              <a href="https://www.instagram.com/designer_ravi_ranjan/"
+                ><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="./Work/post 2.jpg" alt="" />
+            <div class="layer">
+              <!-- <h3>Gradienter Grnrater</h3> -->
+              <p>
+                For More Design Visite my Instagram / Telegram Group
+              </p>
+              <a href="https://www.instagram.com/designer_ravi_ranjan/"
+                ><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          
+        </div>
+        <a href="https://t.me/BannerDesigning" class="btn">See More</a>
+      </div>
+    </div>
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p>
+              <i class="fa-sharp fa-solid fa-paper-plane"></i>
+              codingravi@gmail.com
+            </p>
+            <p><i class="fa-solid fa-square-phone"></i> +91 8877831344</p>
+            <div class="social-icons">
+              <a href="https://github.com/CodingRavi"><i class="fa-brands fa-github"></i></a>
+              <a href="https://t.me/BannerDesigning"><i class="fa-brands fa-telegram"></i><a>              
+              <a href="https://www.instagram.com/designer_ravi_ranjan/"><i class="fa-brands fa-instagram"></i></a>
+              <a href="https://www.linkedin.com/in/ravi-ranjan-kumar-b0a111227/"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+            <a href="./images/Ravi Ranjan.pdf" class="btn btn2" download
+              >Download CV</a
+            >
+          </div>
+          <div class="contact-right">
+            <form name="submit-to-google-sheet">
+              <input type="text" name="Name" placeholder="Your Name" required />
+              <input
+                type="email"
+                name="Email"
+                placeholder="Your Email"
+                required
+              />
+              <textarea
+                name="Massage"
+                rows="6"
+                placeholder="Your Massage"
+              ></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg">hello</span>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>
+          copyright @ Ravi Ranjan. 
+          <i class="fa-solid fa-heart"></i>
+        </p>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
